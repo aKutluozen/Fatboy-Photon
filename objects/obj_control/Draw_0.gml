@@ -25,9 +25,9 @@ draw_text(90, 310,  + string(obj_cannon.energy));
 /// @DnDHash : 02CD5360
 /// @DnDArgument : "x" "10"
 /// @DnDArgument : "y" "10"
-/// @DnDArgument : "caption" ""Score : ""
+/// @DnDArgument : "caption" ""Score: ""
 /// @DnDArgument : "var" "gameScore"
-draw_text(10, 10, string("Score : ") + string(gameScore));
+draw_text(10, 10, string("Score: ") + string(gameScore));
 
 /// @DnDAction : YoYo Games.Instances.If_Instance_Exists
 /// @DnDVersion : 1
