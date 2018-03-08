@@ -419,6 +419,25 @@
             }
         },
         {
+            "Key": "3ce64b0b-f90e-423b-9dad-f61adf885a0a",
+            "Value": {
+                "id": "f85de6a2-0d38-448e-96de-981ffdfe6d07",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_jakeTest2\/spr_jakeTest2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "41ae2862-1362-4963-85f1-c4333bee7dc1",
             "Value": {
                 "id": "cbe52ec1-f539-4969-85d3-2e48835ad120",
@@ -1613,6 +1632,25 @@
                 ],
                 "resourcePath": "objects\/obj_photon\/obj_photon.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "cdb25459-141b-4e61-91f1-54a67f58c6b1",
+            "Value": {
+                "id": "27671a3b-4027-4709-aaf0-24d83cea0466",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_jakeTest3\/spr_jakeTest3.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

@@ -48,6 +48,20 @@
                     "mvc": "1.0",
                     "FrameId": "53325928-67f3-4e36-afdc-2be1c7d01335",
                     "LayerId": "401d2047-13a5-4e16-b6da-13d2f73868c6"
+                },
+                {
+                    "id": "39a07042-7642-43e7-8214-8018b69009cc",
+                    "modelName": "GMSpriteImage",
+                    "mvc": "1.0",
+                    "FrameId": "53325928-67f3-4e36-afdc-2be1c7d01335",
+                    "LayerId": "8ab50463-044c-4250-bbf4-15e7136eee78"
+                },
+                {
+                    "id": "98061fda-1676-4651-998c-5449094a3c81",
+                    "modelName": "GMSpriteImage",
+                    "mvc": "1.0",
+                    "FrameId": "53325928-67f3-4e36-afdc-2be1c7d01335",
+                    "LayerId": "60325c1e-f0b5-4587-9879-64ffd3c58ffe"
                 }
             ]
         }
@@ -79,6 +93,28 @@
             "visible": true
         },
         {
+            "id": "60325c1e-f0b5-4587-9879-64ffd3c58ffe",
+            "modelName": "GMImageLayer",
+            "mvc": "1.0",
+            "SpriteId": "e06fca09-0a38-4ed6-87e6-2403e4fa84a4",
+            "blendMode": 0,
+            "isLocked": false,
+            "name": "Layer 2",
+            "opacity": 100,
+            "visible": true
+        },
+        {
+            "id": "8ab50463-044c-4250-bbf4-15e7136eee78",
+            "modelName": "GMImageLayer",
+            "mvc": "1.0",
+            "SpriteId": "e06fca09-0a38-4ed6-87e6-2403e4fa84a4",
+            "blendMode": 0,
+            "isLocked": false,
+            "name": "Layer 3",
+            "opacity": 100,
+            "visible": true
+        },
+        {
             "id": "401d2047-13a5-4e16-b6da-13d2f73868c6",
             "modelName": "GMImageLayer",
             "mvc": "1.0",
@@ -92,7 +128,7 @@
     ],
     "origin": 0,
     "originLocked": false,
-    "playbackSpeed": 15,
+    "playbackSpeed": 10,
     "playbackSpeedType": 0,
     "premultiplyAlpha": false,
     "sepmasks": false,
