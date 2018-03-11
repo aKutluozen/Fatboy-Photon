@@ -62,8 +62,8 @@ if(l094D9ADC_0)
 /// @DnDHash : 7AE93C13
 /// @DnDArgument : "var" "y"
 /// @DnDArgument : "op" "2"
-/// @DnDArgument : "value" "500"
-if(y > 500)
+/// @DnDArgument : "value" "250"
+if(y > 250)
 {
 	/// @DnDAction : YoYo Games.Game.Restart_Game
 	/// @DnDVersion : 1

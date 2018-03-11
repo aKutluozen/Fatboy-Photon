@@ -3,21 +3,15 @@
 /// @DnDHash : 75D87ED0
 /// @DnDArgument : "x" "20"
 /// @DnDArgument : "y" "70"
-/// @DnDArgument : "sprite" "spr_modalBackground"
+/// @DnDArgument : "sprite" "spr_itemModalBackground"
 /// @DnDSaveInfo : "sprite" "bad58096-f3cf-4ab4-bbd5-613bd3b81abf"
-draw_sprite(spr_modalBackground, 0, 20, 70);
+draw_sprite(spr_itemModalBackground, 0, 20, 70);
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Self
 /// @DnDVersion : 1
 /// @DnDHash : 015BE46C
-draw_self();
+/// @DnDDisabled : 1
 
-/// @DnDAction : YoYo Games.Drawing.Set_Alignment
-/// @DnDVersion : 1.1
-/// @DnDHash : 044366AE
-/// @DnDArgument : "halign" "fa_center"
-draw_set_halign(fa_center);
-draw_set_valign(fa_top);
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Value
 /// @DnDVersion : 1

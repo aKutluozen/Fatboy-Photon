@@ -1,0 +1,101 @@
+{
+    "id": "cb4e7529-cc8b-47e2-8ce1-a8a05f7c80be",
+    "modelName": "GMObject",
+    "mvc": "1.0",
+    "name": "obj_questionModal",
+    "eventList": [
+        {
+            "id": "f0dd682f-ac76-48b6-baa1-326f7d28363b",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "cb4e7529-cc8b-47e2-8ce1-a8a05f7c80be"
+        },
+        {
+            "id": "45dd1417-9635-4f0d-b4df-be0ee6223083",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "cb4e7529-cc8b-47e2-8ce1-a8a05f7c80be"
+        },
+        {
+            "id": "8db77547-b913-4375-861a-658e888f0155",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 1,
+            "m_owner": "cb4e7529-cc8b-47e2-8ce1-a8a05f7c80be"
+        }
+    ],
+    "maskSpriteId": "00000000-0000-0000-0000-000000000000",
+    "overriddenProperties": null,
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "persistent": false,
+    "physicsAngularDamping": 0.1,
+    "physicsDensity": 0.5,
+    "physicsFriction": 0.2,
+    "physicsGroup": 0,
+    "physicsKinematic": false,
+    "physicsLinearDamping": 0.1,
+    "physicsObject": false,
+    "physicsRestitution": 0.1,
+    "physicsSensor": false,
+    "physicsShape": 1,
+    "physicsShapePoints": null,
+    "physicsStartAwake": true,
+    "properties": [
+        {
+            "id": "32b11e79-3cfb-4cd1-aa94-ba9fb9efd61a",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "questionPrice",
+            "varType": 1
+        },
+        {
+            "id": "a2c0c815-8dd3-4c3a-9f6f-8f14a431d10c",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "questionItem",
+            "varType": 2
+        },
+        {
+            "id": "2df6c9b2-0bc4-44ba-827b-50942e005e93",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "\"Are sure you want to\\npurchase this item?\\n$\"",
+            "varName": "messageToShow",
+            "varType": 2
+        }
+    ],
+    "solid": false,
+    "spriteId": "f4426183-189c-44ab-a0b7-98227baa5ec6",
+    "visible": true
+}

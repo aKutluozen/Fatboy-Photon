@@ -4,12 +4,31 @@
     "mvc": "1.0",
     "name": "obj_storeControl",
     "eventList": [
-        
+        {
+            "id": "651f4dc0-15df-4d5e-be08-53f4abaa4740",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "41ae2862-1362-4963-85f1-c4333bee7dc1"
+        },
+        {
+            "id": "092f7d97-5fa6-4332-aa87-c058447fa40d",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 4,
+            "eventtype": 7,
+            "m_owner": "41ae2862-1362-4963-85f1-c4333bee7dc1"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
     "parentObjectId": "00000000-0000-0000-0000-000000000000",
-    "persistent": false,
+    "persistent": true,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
     "physicsFriction": 0.2,
@@ -33,7 +52,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0",
+            "value": "1000",
             "varName": "money",
             "varType": 1
         },
@@ -47,7 +66,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "false",
+            "value": "False",
             "varName": "haveLumen",
             "varType": 3
         },
@@ -61,7 +80,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "false",
+            "value": "False",
             "varName": "haveRapid",
             "varType": 3
         },
@@ -75,7 +94,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "false",
+            "value": "False",
             "varName": "haveWall",
             "varType": 3
         },
@@ -89,7 +108,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "false",
+            "value": "False",
             "varName": "haveGhost",
             "varType": 3
         },
@@ -103,7 +122,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "2",
+            "value": "0",
             "varName": "lumenLevel",
             "varType": 1
         },
@@ -117,7 +136,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "3",
+            "value": "0",
             "varName": "rapidLevel",
             "varType": 1
         },
@@ -131,7 +150,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "15",
+            "value": "0",
             "varName": "wallLevel",
             "varType": 1
         },
@@ -145,7 +164,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "4",
+            "value": "0",
             "varName": "ghostLevel",
             "varType": 1
         },
@@ -159,7 +178,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "150",
+            "value": "100",
             "varName": "lumenPrice",
             "varType": 1
         },
@@ -173,7 +192,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "175",
+            "value": "125",
             "varName": "rapidPrice",
             "varType": 1
         },
@@ -187,7 +206,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "111",
+            "value": "150",
             "varName": "ghostPrice",
             "varType": 1
         },
@@ -201,7 +220,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "124",
+            "value": "175",
             "varName": "wallPrice",
             "varType": 1
         }

@@ -4,20 +4,13 @@
     "mvc": "1.0",
     "name": "obj_lumenButton",
     "eventList": [
-        {
-            "id": "564dcbad-ff78-4861-b9f3-cdbaa5a4b874",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": true,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 7,
-            "eventtype": 6,
-            "m_owner": "712bc5a3-1276-4316-af23-431980454bac"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
-    "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "overriddenProperties": [
+        
+    ],
+    "parentObjectId": "15fed83d-8d2f-4c93-9b60-8c237391e5cb",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -31,7 +24,50 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": null,
+    "properties": [
+        {
+            "id": "73cac5c1-4d90-4b1f-8b39-df5d262c511e",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "obj_lumenModal",
+            "varName": "itemModalToOpen",
+            "varType": 5
+        },
+        {
+            "id": "8fd24dce-8b3c-430d-a2dd-a6451f98df17",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "lumen",
+            "varName": "itemName",
+            "varType": 2
+        },
+        {
+            "id": "2679e0b1-b1b7-4543-9302-9df9b52f8e69",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "175",
+            "varName": "itemUnlockPrice",
+            "varType": 1
+        }
+    ],
     "solid": false,
     "spriteId": "6fba7f91-daa3-4a3e-8c93-888dc8b1b7b7",
     "visible": true

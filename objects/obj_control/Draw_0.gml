@@ -1,16 +1,3 @@
-/// @DnDAction : YoYo Games.Drawing.Set_Font
-/// @DnDVersion : 1
-/// @DnDHash : 5A0D237F
-/// @DnDArgument : "font" "fnt_photonFont"
-/// @DnDSaveInfo : "font" "f3af2cbe-e03f-4a53-a210-a2b88fdd384a"
-draw_set_font(fnt_photonFont);
-
-/// @DnDAction : YoYo Games.Drawing.Set_Color
-/// @DnDVersion : 1
-/// @DnDHash : 5BE77368
-draw_set_colour($FFFFFFFF & $ffffff);
-draw_set_alpha(($FFFFFFFF >> 24) / $ff);
-
 /// @DnDAction : YoYo Games.Drawing.Draw_Value
 /// @DnDVersion : 1
 /// @DnDHash : 6F506CA4
@@ -23,11 +10,11 @@ draw_text(90, 310,  + string(obj_cannon.energy));
 /// @DnDAction : YoYo Games.Drawing.Draw_Value
 /// @DnDVersion : 1
 /// @DnDHash : 02CD5360
-/// @DnDArgument : "x" "10"
+/// @DnDArgument : "x" "90"
 /// @DnDArgument : "y" "10"
 /// @DnDArgument : "caption" ""Score: ""
 /// @DnDArgument : "var" "gameScore"
-draw_text(10, 10, string("Score: ") + string(gameScore));
+draw_text(90, 10, string("Score: ") + string(gameScore));
 
 /// @DnDAction : YoYo Games.Instances.If_Instance_Exists
 /// @DnDVersion : 1
