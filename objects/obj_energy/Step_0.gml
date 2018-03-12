@@ -1,9 +1,27 @@
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 5FD88997
+/// @DnDArgument : "var" "turning"
+/// @DnDArgument : "op" "1"
+/// @DnDArgument : "value" "50"
+if(turning < 50)
+{
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 6E379854
+	/// @DnDParent : 5FD88997
+	/// @DnDArgument : "expr" "0.25"
+	/// @DnDArgument : "expr_relative" "1"
+	/// @DnDArgument : "var" "turning"
+	turning += 0.25;
+}
+
 /// @DnDAction : YoYo Games.Instances.Sprite_Rotate
 /// @DnDVersion : 1
 /// @DnDHash : 2AC8300F
-/// @DnDArgument : "angle" "-15"
+/// @DnDArgument : "angle" "-turning"
 /// @DnDArgument : "angle_relative" "1"
-image_angle += -15;
+image_angle += -turning;
 
 /// @DnDAction : YoYo Games.Common.If_Expression
 /// @DnDVersion : 1
