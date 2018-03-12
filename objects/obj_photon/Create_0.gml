@@ -8,5 +8,5 @@ direction = obj_cannon.direction - 180;
 /// @DnDAction : YoYo Games.Movement.Set_Speed
 /// @DnDVersion : 1
 /// @DnDHash : 5DAC27A3
-/// @DnDArgument : "speed" "8"
-speed = 8;
+/// @DnDArgument : "speed" "4"
+speed = 4;

@@ -2,7 +2,7 @@
     "id": "cdb25459-141b-4e61-91f1-54a67f58c6b1",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_jakeTest3",
+    "name": "spr_energy",
     "For3D": false,
     "HTile": false,
     "VTile": false,
@@ -130,7 +130,7 @@
             "visible": true
         }
     ],
-    "origin": 4,
+    "origin": 9,
     "originLocked": false,
     "playbackSpeed": 15,
     "playbackSpeedType": 0,
@@ -142,5 +142,5 @@
     "type": 0,
     "width": 80,
     "xorig": 40,
-    "yorig": 40
+    "yorig": 42
 }

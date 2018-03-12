@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "219ceff8-cac7-4b4d-8d27-6554b872d1f2",
+            "Value": {
+                "id": "b8b7110a-1668-481f-a0f0-c59113f2963e",
+                "resourcePath": "objects\\obj_pauseButton\\obj_pauseButton.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "21ae94b6-dde3-4faf-9379-42107c019666",
             "Value": {
                 "id": "c697068e-3788-4271-b09d-f26105bf39b7",
@@ -231,6 +239,14 @@
             }
         },
         {
+            "Key": "3e25edfd-3979-4ae4-bc67-78d6b9fce204",
+            "Value": {
+                "id": "fee299b6-8706-49b0-8171-71bc4d52820d",
+                "resourcePath": "sprites\\spr_pauseMenuBackground\\spr_pauseMenuBackground.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "41ae2862-1362-4963-85f1-c4333bee7dc1",
             "Value": {
                 "id": "cbe52ec1-f539-4969-85d3-2e48835ad120",
@@ -251,6 +267,14 @@
             "Value": {
                 "id": "160f8bd3-7d07-4429-9d5d-938d5bf4c579",
                 "resourcePath": "views\/4293ed36-7b7a-45bf-ba38-69f63fc39cee.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "453a46d2-00ec-4faf-bcac-ae62d5abea55",
+            "Value": {
+                "id": "912ebb68-a1f5-4a35-9a76-7568e039b8bb",
+                "resourcePath": "views\\453a46d2-00ec-4faf-bcac-ae62d5abea55.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -631,14 +655,6 @@
             }
         },
         {
-            "Key": "a1e46821-6b9a-4f6c-a528-57fd48ece51d",
-            "Value": {
-                "id": "e57413f8-6c86-489e-be1b-b13eb223cfdd",
-                "resourcePath": "sprites\/spr_greenEnergy\/spr_greenEnergy.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "a2aa366f-3edc-4999-b07a-e0f25a4af108",
             "Value": {
                 "id": "4a35025c-13db-47da-9cef-1ea30066d6b5",
@@ -802,7 +818,7 @@
             "Key": "cdb25459-141b-4e61-91f1-54a67f58c6b1",
             "Value": {
                 "id": "27671a3b-4027-4709-aaf0-24d83cea0466",
-                "resourcePath": "sprites\/spr_jakeTest3\/spr_jakeTest3.yy",
+                "resourcePath": "sprites\\spr_energy\\spr_energy.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -828,6 +844,14 @@
                 "id": "51df3297-bc71-43fd-8558-9770441db412",
                 "resourcePath": "sprites\/spr_fireButton\/spr_fireButton.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d7f9081c-a40e-4adb-864a-3baf0abf86cb",
+            "Value": {
+                "id": "2a0ddd97-efb8-4852-a208-2a7c2857abfc",
+                "resourcePath": "objects\\obj_pauseMenu\\obj_pauseMenu.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -924,6 +948,14 @@
                 "id": "73ea207e-00f2-4485-b50e-2267c660abc0",
                 "resourcePath": "sprites\\spr_questionModalBackground\\spr_questionModalBackground.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "fb7e837d-14a8-4152-8756-937bd058230a",
+            "Value": {
+                "id": "cd2fc71f-7fd2-4961-abad-69738a96f068",
+                "resourcePath": "views\\fb7e837d-14a8-4152-8756-937bd058230a.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
