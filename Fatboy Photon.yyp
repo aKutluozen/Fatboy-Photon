@@ -438,6 +438,25 @@
             }
         },
         {
+            "Key": "2f497543-e2ed-4295-b277-3ae1031eb4c9",
+            "Value": {
+                "id": "2f5c3265-189a-4f0c-84c3-35d45eb109ed",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/starShooting\/starShooting.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2fa30d04-361c-492e-b4a8-486862eb0bb5",
             "Value": {
                 "id": "8af2f6af-ffab-44a6-bda6-2c7847569fea",
@@ -1042,6 +1061,25 @@
                     "default"
                 ],
                 "resourcePath": "sprites\/spr_closeButton\/spr_closeButton.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6f3cddbb-2372-47f4-8b23-a24c9fb3cdf6",
+            "Value": {
+                "id": "812ab7a0-a571-4304-93a8-dd3275caec5d",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/starPink\/starPink.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -2050,6 +2088,25 @@
                 ],
                 "resourcePath": "objects\/obj_pauseMenu\/obj_pauseMenu.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d8098df0-628f-4896-b477-3fcd424c7f6f",
+            "Value": {
+                "id": "53689acf-a7b4-40a2-82bc-5b08035f9ad5",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/planetGreen\/planetGreen.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

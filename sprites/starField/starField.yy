@@ -6,10 +6,10 @@
     "For3D": false,
     "HTile": false,
     "VTile": false,
-    "bbox_bottom": 639,
-    "bbox_left": 0,
-    "bbox_right": 359,
-    "bbox_top": 0,
+    "bbox_bottom": 556,
+    "bbox_left": 6,
+    "bbox_right": 354,
+    "bbox_top": 71,
     "bboxmode": 0,
     "colkind": 1,
     "coltolerance": 0,
@@ -65,7 +65,7 @@
             "isLocked": false,
             "name": "Layer 2",
             "opacity": 100,
-            "visible": true
+            "visible": false
         },
         {
             "id": "d86a83ca-3b60-47e4-b313-a6045f2e1fd3",
@@ -76,7 +76,7 @@
             "isLocked": false,
             "name": "Layer 1",
             "opacity": 100,
-            "visible": false
+            "visible": true
         },
         {
             "id": "8e2f206a-2c0d-41c0-b055-9fdf3943b14b",
