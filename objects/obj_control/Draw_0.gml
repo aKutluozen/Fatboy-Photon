@@ -25,15 +25,25 @@ var l2BA249E2_0 = false;
 l2BA249E2_0 = instance_exists(obj_photon);
 if(l2BA249E2_0)
 {
-	/// @DnDAction : YoYo Games.Drawing.Draw_Value
+	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
-	/// @DnDHash : 694E21CF
+	/// @DnDHash : 29EDDAFB
 	/// @DnDParent : 2BA249E2
-	/// @DnDArgument : "x" "10"
-	/// @DnDArgument : "y" "40"
-	/// @DnDArgument : "caption" ""Combo: ""
 	/// @DnDArgument : "var" "obj_photon.successfulHits"
-	draw_text(10, 40, string("Combo: ") + string(obj_photon.successfulHits));
+	/// @DnDArgument : "op" "2"
+	/// @DnDArgument : "value" "2"
+	if(obj_photon.successfulHits > 2)
+	{
+		/// @DnDAction : YoYo Games.Drawing.Draw_Value
+		/// @DnDVersion : 1
+		/// @DnDHash : 694E21CF
+		/// @DnDParent : 29EDDAFB
+		/// @DnDArgument : "x" "90"
+		/// @DnDArgument : "y" "50"
+		/// @DnDArgument : "caption" ""Combo: ""
+		/// @DnDArgument : "var" "obj_photon.successfulHits"
+		draw_text(90, 50, string("Combo: ") + string(obj_photon.successfulHits));
+	}
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable

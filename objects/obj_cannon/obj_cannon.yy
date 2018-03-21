@@ -114,7 +114,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "ghost",
+            "value": "\"\"",
             "varName": "specialWeapon",
             "varType": 2
         },
@@ -128,7 +128,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "1",
+            "value": "1 + obj_storeControl.lumenLevel",
             "varName": "lumenSize",
             "varType": 1
         },
@@ -142,7 +142,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "5",
+            "value": "5 + (5 * obj_storeControl.rapidLevel)",
             "varName": "rapidRounds",
             "varType": 1
         },
@@ -158,6 +158,20 @@
             "resourceFilter": 1023,
             "value": "0",
             "varName": "shootingRapid",
+            "varType": 1
+        },
+        {
+            "id": "027996d0-feba-44da-9ed3-a6e00ae1d50e",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "specialWeaponAmmo",
             "varType": 1
         }
     ],

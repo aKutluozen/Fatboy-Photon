@@ -33,6 +33,16 @@
             "enumb": 0,
             "eventtype": 1,
             "m_owner": "cb4e7529-cc8b-47e2-8ce1-a8a05f7c80be"
+        },
+        {
+            "id": "b8ccf74a-d3a3-4b37-8b8d-9a0238ce37a2",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "cb4e7529-cc8b-47e2-8ce1-a8a05f7c80be"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -93,6 +103,20 @@
             "value": "\"Are sure you want to\\npurchase this item?\\n$\"",
             "varName": "messageToShow",
             "varType": 2
+        },
+        {
+            "id": "1b54f78d-7ddf-451e-ad78-e2a6666114f1",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "false",
+            "varName": "addAmmo",
+            "varType": 3
         }
     ],
     "solid": false,

@@ -8,6 +8,16 @@
 /// @DnDSaveInfo : "objectid" "8edad2a2-35a4-4cc3-bb80-47c6b6e9d928"
 instance_create_layer(140, 70, "Layer_Modal", obj_closeModal);
 
+/// @DnDAction : YoYo Games.Instances.Create_Instance
+/// @DnDVersion : 1
+/// @DnDHash : 43B6341C
+/// @DnDArgument : "xpos" "50"
+/// @DnDArgument : "ypos" "135"
+/// @DnDArgument : "objectid" "obj_addAmmoButton"
+/// @DnDArgument : "layer" ""Layer_Modal""
+/// @DnDSaveInfo : "objectid" "b234bbd7-e65b-43ea-8c33-d89e4ca68cba"
+instance_create_layer(50, 135, "Layer_Modal", obj_addAmmoButton);
+
 /// @DnDAction : YoYo Games.Switch.Switch
 /// @DnDVersion : 1
 /// @DnDHash : 0DBB8D58
@@ -35,14 +45,20 @@ switch(l0DBB8D58_0)
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 6947F960
-		/// @DnDInput : 2
+		/// @DnDInput : 4
 		/// @DnDParent : 0FE0E099
 		/// @DnDArgument : "expr" "obj_storeControl.rapidPrice"
 		/// @DnDArgument : "expr_1" ""rapid""
+		/// @DnDArgument : "expr_2" ""rapid""
+		/// @DnDArgument : "expr_3" "20"
 		/// @DnDArgument : "var" "obj_levelButton.upgradePrice"
 		/// @DnDArgument : "var_1" "obj_levelButton.itemToUpgrade"
+		/// @DnDArgument : "var_2" "obj_addAmmoButton.itemToAddTo"
+		/// @DnDArgument : "var_3" "obj_addAmmoButton.ammoPrice"
 		obj_levelButton.upgradePrice = obj_storeControl.rapidPrice;
 		obj_levelButton.itemToUpgrade = "rapid";
+		obj_addAmmoButton.itemToAddTo = "rapid";
+		obj_addAmmoButton.ammoPrice = 20;
 	
 		/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1
@@ -106,14 +122,20 @@ switch(l0DBB8D58_0)
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 586786B4
-		/// @DnDInput : 2
+		/// @DnDInput : 4
 		/// @DnDParent : 6C69FC8A
 		/// @DnDArgument : "expr" "obj_storeControl.lumenPrice"
 		/// @DnDArgument : "expr_1" ""lumen""
+		/// @DnDArgument : "expr_2" ""lumen""
+		/// @DnDArgument : "expr_3" "30"
 		/// @DnDArgument : "var" "obj_levelButton.upgradePrice"
 		/// @DnDArgument : "var_1" "obj_levelButton.itemToUpgrade"
+		/// @DnDArgument : "var_2" "obj_addAmmoButton.itemToAddTo"
+		/// @DnDArgument : "var_3" "obj_addAmmoButton.ammoPrice"
 		obj_levelButton.upgradePrice = obj_storeControl.lumenPrice;
 		obj_levelButton.itemToUpgrade = "lumen";
+		obj_addAmmoButton.itemToAddTo = "lumen";
+		obj_addAmmoButton.ammoPrice = 30;
 	
 		/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1
@@ -177,14 +199,20 @@ switch(l0DBB8D58_0)
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 59ECB72D
-		/// @DnDInput : 2
+		/// @DnDInput : 4
 		/// @DnDParent : 4E9CB736
 		/// @DnDArgument : "expr" "obj_storeControl.ghostPrice"
 		/// @DnDArgument : "expr_1" ""ghost""
+		/// @DnDArgument : "expr_2" ""ghost""
+		/// @DnDArgument : "expr_3" "40"
 		/// @DnDArgument : "var" "obj_levelButton.upgradePrice"
 		/// @DnDArgument : "var_1" "obj_levelButton.itemToUpgrade"
+		/// @DnDArgument : "var_2" "obj_addAmmoButton.itemToAddTo"
+		/// @DnDArgument : "var_3" "obj_addAmmoButton.ammoPrice"
 		obj_levelButton.upgradePrice = obj_storeControl.ghostPrice;
 		obj_levelButton.itemToUpgrade = "ghost";
+		obj_addAmmoButton.itemToAddTo = "ghost";
+		obj_addAmmoButton.ammoPrice = 40;
 	
 		/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1
@@ -248,14 +276,20 @@ switch(l0DBB8D58_0)
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 5E35023E
-		/// @DnDInput : 2
+		/// @DnDInput : 4
 		/// @DnDParent : 31105600
 		/// @DnDArgument : "expr" "obj_storeControl.wallPrice"
 		/// @DnDArgument : "expr_1" ""wall""
+		/// @DnDArgument : "expr_2" ""wall""
+		/// @DnDArgument : "expr_3" "50"
 		/// @DnDArgument : "var" "obj_levelButton.upgradePrice"
 		/// @DnDArgument : "var_1" "obj_levelButton.itemToUpgrade"
+		/// @DnDArgument : "var_2" "obj_addAmmoButton.itemToAddTo"
+		/// @DnDArgument : "var_3" "obj_addAmmoButton.ammoPrice"
 		obj_levelButton.upgradePrice = obj_storeControl.wallPrice;
 		obj_levelButton.itemToUpgrade = "wall";
+		obj_addAmmoButton.itemToAddTo = "wall";
+		obj_addAmmoButton.ammoPrice = 50;
 	
 		/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1

@@ -5,13 +5,23 @@
     "name": "obj_pauseMenu",
     "eventList": [
         {
-            "id": "1f732be4-e95f-4af2-bcaf-27b04a2494d5",
+            "id": "79e491a3-a2e0-47e4-8fa3-32d182c989ef",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": true,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 7,
-            "eventtype": 6,
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "d7f9081c-a40e-4adb-864a-3baf0abf86cb"
+        },
+        {
+            "id": "c02b430f-939c-41b6-b43c-f4b1c2108012",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 1,
             "m_owner": "d7f9081c-a40e-4adb-864a-3baf0abf86cb"
         }
     ],

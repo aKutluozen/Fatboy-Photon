@@ -53,6 +53,16 @@ switch(l1BDF7DA8_0)
 		/// @DnDArgument : "caption" ""Level: ""
 		/// @DnDArgument : "var" "obj_storeControl.rapidLevel"
 		draw_text(90, 120, string("Level: ") + string(obj_storeControl.rapidLevel));
+	
+		/// @DnDAction : YoYo Games.Drawing.Draw_Value
+		/// @DnDVersion : 1
+		/// @DnDHash : 1CB8728F
+		/// @DnDParent : 7DFE4D19
+		/// @DnDArgument : "x" "100"
+		/// @DnDArgument : "y" "140"
+		/// @DnDArgument : "caption" ""Ammo: ""
+		/// @DnDArgument : "var" "obj_storeControl.rapidAmmo"
+		draw_text(100, 140, string("Ammo: ") + string(obj_storeControl.rapidAmmo));
 		break;
 
 	/// @DnDAction : YoYo Games.Switch.Case
@@ -80,6 +90,16 @@ switch(l1BDF7DA8_0)
 		/// @DnDArgument : "caption" ""Level: ""
 		/// @DnDArgument : "var" "obj_storeControl.lumenLevel"
 		draw_text(90, 120, string("Level: ") + string(obj_storeControl.lumenLevel));
+	
+		/// @DnDAction : YoYo Games.Drawing.Draw_Value
+		/// @DnDVersion : 1
+		/// @DnDHash : 242B732F
+		/// @DnDParent : 2A0C8A79
+		/// @DnDArgument : "x" "100"
+		/// @DnDArgument : "y" "140"
+		/// @DnDArgument : "caption" ""Ammo: ""
+		/// @DnDArgument : "var" "obj_storeControl.lumenAmmo"
+		draw_text(100, 140, string("Ammo: ") + string(obj_storeControl.lumenAmmo));
 		break;
 
 	/// @DnDAction : YoYo Games.Switch.Case
@@ -107,6 +127,16 @@ switch(l1BDF7DA8_0)
 		/// @DnDArgument : "caption" ""Level: ""
 		/// @DnDArgument : "var" "obj_storeControl.ghostLevel"
 		draw_text(90, 120, string("Level: ") + string(obj_storeControl.ghostLevel));
+	
+		/// @DnDAction : YoYo Games.Drawing.Draw_Value
+		/// @DnDVersion : 1
+		/// @DnDHash : 047AE564
+		/// @DnDParent : 0B1B1321
+		/// @DnDArgument : "x" "100"
+		/// @DnDArgument : "y" "140"
+		/// @DnDArgument : "caption" ""Ammo: ""
+		/// @DnDArgument : "var" "obj_storeControl.ghostAmmo"
+		draw_text(100, 140, string("Ammo: ") + string(obj_storeControl.ghostAmmo));
 		break;
 
 	/// @DnDAction : YoYo Games.Switch.Case
@@ -134,5 +164,15 @@ switch(l1BDF7DA8_0)
 		/// @DnDArgument : "caption" ""Level: ""
 		/// @DnDArgument : "var" "obj_storeControl.wallLevel"
 		draw_text(90, 120, string("Level: ") + string(obj_storeControl.wallLevel));
+	
+		/// @DnDAction : YoYo Games.Drawing.Draw_Value
+		/// @DnDVersion : 1
+		/// @DnDHash : 30B926F7
+		/// @DnDParent : 57EB0BA6
+		/// @DnDArgument : "x" "100"
+		/// @DnDArgument : "y" "140"
+		/// @DnDArgument : "caption" ""Ammo: ""
+		/// @DnDArgument : "var" "obj_storeControl.wallAmmo"
+		draw_text(100, 140, string("Ammo: ") + string(obj_storeControl.wallAmmo));
 		break;
 }

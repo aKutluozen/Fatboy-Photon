@@ -15,9 +15,18 @@ draw_set_colour($FF0000FF & $ffffff);
 /// @DnDHash : 79B1DA41
 /// @DnDArgument : "x" "90"
 /// @DnDArgument : "y" "300"
-/// @DnDArgument : "caption" ""Weapon: ""
+/// @DnDArgument : "caption" ""
 /// @DnDArgument : "var" "specialWeapon"
-draw_text(90, 300, string("Weapon: ") + string(specialWeapon));
+draw_text(90, 300,  + string(specialWeapon));
+
+/// @DnDAction : YoYo Games.Drawing.Draw_Value
+/// @DnDVersion : 1
+/// @DnDHash : 265B5E58
+/// @DnDArgument : "x" "120"
+/// @DnDArgument : "y" "300"
+/// @DnDArgument : "caption" ""x""
+/// @DnDArgument : "var" "specialWeaponAmmo"
+draw_text(120, 300, string("x") + string(specialWeaponAmmo));
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Sprite_Transformed
 /// @DnDVersion : 1

@@ -52,9 +52,9 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "5",
+            "value": "5 + (5 * obj_storeControl.wallLevel)",
             "varName": "wallRounds",
-            "varType": 0
+            "varType": 1
         }
     ],
     "solid": false,
