@@ -1,0 +1,91 @@
+{
+    "id": "b234bbd7-e65b-43ea-8c33-d89e4ca68cba",
+    "modelName": "GMObject",
+    "mvc": "1.0",
+    "name": "obj_addAmmoButton",
+    "eventList": [
+        {
+            "id": "f2195edb-1a7c-4039-8c8b-b048cb7cf2c4",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "b234bbd7-e65b-43ea-8c33-d89e4ca68cba"
+        },
+        {
+            "id": "2fc54aa2-3e19-4f81-905d-b18af2b4b524",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 7,
+            "eventtype": 6,
+            "m_owner": "b234bbd7-e65b-43ea-8c33-d89e4ca68cba"
+        }
+    ],
+    "maskSpriteId": "00000000-0000-0000-0000-000000000000",
+    "overriddenProperties": null,
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "persistent": false,
+    "physicsAngularDamping": 0.1,
+    "physicsDensity": 0.5,
+    "physicsFriction": 0.2,
+    "physicsGroup": 0,
+    "physicsKinematic": false,
+    "physicsLinearDamping": 0.1,
+    "physicsObject": false,
+    "physicsRestitution": 0.1,
+    "physicsSensor": false,
+    "physicsShape": 1,
+    "physicsShapePoints": null,
+    "physicsStartAwake": true,
+    "properties": [
+        {
+            "id": "745e0389-7faa-47ab-9338-7c2249b1dbc5",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "\"\"",
+            "varName": "itemToAddTo",
+            "varType": 2
+        },
+        {
+            "id": "3e2a6247-49b0-4b38-8c1e-99ffdb0b4429",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "ammoPrice",
+            "varType": 1
+        },
+        {
+            "id": "074f8d80-b291-424f-8029-e5de96bd86b1",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "True",
+            "varName": "isClickable",
+            "varType": 3
+        }
+    ],
+    "solid": false,
+    "spriteId": "7e82ad4a-9bd2-4e74-99f2-629521b9e0fb",
+    "visible": true
+}
