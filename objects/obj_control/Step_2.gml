@@ -9,8 +9,7 @@ if(gameStatus == "enemy_moving")
 	/// @DnDVersion : 1
 	/// @DnDHash : 7A6637CD
 	/// @DnDParent : 022A040D
-	/// @DnDArgument : "steps" "60"
-	alarm_set(0, 60);
+	alarm_set(0, 30);
 
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1

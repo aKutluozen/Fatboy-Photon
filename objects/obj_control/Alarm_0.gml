@@ -1,13 +1,17 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 3C3ACFAF
-/// @DnDInput : 2
+/// @DnDInput : 3
 /// @DnDArgument : "expr" ""player_moving""
 /// @DnDArgument : "expr_1" "1"
+/// @DnDArgument : "expr_2" "1"
+/// @DnDArgument : "expr_relative_2" "1"
 /// @DnDArgument : "var" "gameStatus"
 /// @DnDArgument : "var_1" "scoreMultiplier"
+/// @DnDArgument : "var_2" "enemySpawnOffset"
 gameStatus = "player_moving";
 scoreMultiplier = 1;
+enemySpawnOffset += 1;
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
@@ -17,11 +21,13 @@ scoreMultiplier = 1;
 /// @DnDArgument : "value" "10"
 if(obj_cannon.energy < 10)
 {
-	/// @DnDAction : YoYo Games.Game.Restart_Game
+	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
 	/// @DnDVersion : 1
-	/// @DnDHash : 2369C0A8
+	/// @DnDHash : 3BE24BC8
 	/// @DnDParent : 23BDF795
-	game_restart();
+	/// @DnDArgument : "room" "main_menu"
+	/// @DnDSaveInfo : "room" "158af8f3-b2b9-4bb1-927e-698aca656c8c"
+	room_goto(main_menu);
 }
 
 /// @DnDAction : YoYo Games.Instances.Instance_Get_Count
@@ -33,12 +39,6 @@ if(obj_cannon.energy < 10)
 /// @DnDSaveInfo : "object" "fc04d33c-8fcd-4e40-9231-11ecfec26f22"
 var enemyCount = instance_number(obj_enemy);
 
-/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
-/// @DnDVersion : 1
-/// @DnDHash : 00DB0004
-/// @DnDArgument : "msg" ""checking it""
-show_debug_message(string("checking it"));
-
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 050B7B43
@@ -47,11 +47,13 @@ show_debug_message(string("checking it"));
 /// @DnDArgument : "value" "4"
 if(enemyCount < 4)
 {
-	/// @DnDAction : YoYo Games.Game.Restart_Game
+	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
 	/// @DnDVersion : 1
-	/// @DnDHash : 0D962292
+	/// @DnDHash : 175B0E0C
 	/// @DnDParent : 050B7B43
-	game_restart();
+	/// @DnDArgument : "room" "main_menu"
+	/// @DnDSaveInfo : "room" "158af8f3-b2b9-4bb1-927e-698aca656c8c"
+	room_goto(main_menu);
 }
 
 /// @DnDAction : YoYo Games.Instances.If_Instance_Exists

@@ -127,6 +127,20 @@
             "value": "1",
             "varName": "scoreMultiplier",
             "varType": 1
+        },
+        {
+            "id": "e8ed279b-3b4c-44b9-8c62-e2142b7b6412",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "enemySpawnOffset",
+            "varType": 1
         }
     ],
     "solid": false,

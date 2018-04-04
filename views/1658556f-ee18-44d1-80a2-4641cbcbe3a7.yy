@@ -12,7 +12,7 @@
         "21ae94b6-dde3-4faf-9379-42107c019666"
     ],
     "filterType": "GMObject",
-    "folderName": "spcial photon",
+    "folderName": "special photon",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
