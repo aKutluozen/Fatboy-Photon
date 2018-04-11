@@ -23,6 +23,26 @@
             "enumb": 0,
             "eventtype": 8,
             "m_owner": "fc04d33c-8fcd-4e40-9231-11ecfec26f22"
+        },
+        {
+            "id": "92f23a76-490a-4edc-95ad-1eb126a66fe3",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 1,
+            "eventtype": 3,
+            "m_owner": "fc04d33c-8fcd-4e40-9231-11ecfec26f22"
+        },
+        {
+            "id": "9a159c01-e473-4d90-9e72-7a794342d170",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 2,
+            "eventtype": 3,
+            "m_owner": "fc04d33c-8fcd-4e40-9231-11ecfec26f22"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -69,6 +89,20 @@
             "value": "0",
             "varName": "enemyLife",
             "varType": 0
+        },
+        {
+            "id": "36711a10-947e-4cdf-8722-e39b71593b0c",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "False",
+            "varName": "yMoving",
+            "varType": 3
         }
     ],
     "solid": false,

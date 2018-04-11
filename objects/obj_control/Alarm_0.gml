@@ -2,16 +2,16 @@
 /// @DnDVersion : 1
 /// @DnDHash : 3C3ACFAF
 /// @DnDInput : 3
-/// @DnDArgument : "expr" ""player_moving""
+/// @DnDArgument : "expr" "1"
 /// @DnDArgument : "expr_1" "1"
-/// @DnDArgument : "expr_2" "1"
-/// @DnDArgument : "expr_relative_2" "1"
-/// @DnDArgument : "var" "gameStatus"
-/// @DnDArgument : "var_1" "scoreMultiplier"
-/// @DnDArgument : "var_2" "enemySpawnOffset"
-gameStatus = "player_moving";
+/// @DnDArgument : "expr_relative_1" "1"
+/// @DnDArgument : "expr_2" ""player_moving""
+/// @DnDArgument : "var" "scoreMultiplier"
+/// @DnDArgument : "var_1" "enemySpawnOffset"
+/// @DnDArgument : "var_2" "gameStatus"
 scoreMultiplier = 1;
 enemySpawnOffset += 1;
+gameStatus = "player_moving";
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
