@@ -91,6 +91,13 @@ if(shootingRapid == 1)
 			/// @DnDArgument : "expr" ""enemy_moving""
 			/// @DnDArgument : "var" "obj_control.gameStatus"
 			obj_control.gameStatus = "enemy_moving";
+		
+			/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
+			/// @DnDVersion : 1
+			/// @DnDHash : 4915C958
+			/// @DnDParent : 1DC7E666
+			/// @DnDArgument : "msg" ""are we executing?""
+			show_debug_message(string("are we executing?"));
 		}
 	}
 }

@@ -47,44 +47,112 @@ if(l094D9ADC_0)
 		{
 			/// @DnDAction : YoYo Games.Common.If_Variable
 			/// @DnDVersion : 1
-			/// @DnDHash : 69EE6A5B
+			/// @DnDHash : 13BAC711
 			/// @DnDParent : 58991AC5
-			/// @DnDArgument : "var" "yMoving"
-			/// @DnDArgument : "value" "true"
-			if(yMoving == true)
+			/// @DnDArgument : "var" "obj_cannon.burning"
+			if(obj_cannon.burning == 0)
+			{
+				/// @DnDAction : YoYo Games.Common.If_Variable
+				/// @DnDVersion : 1
+				/// @DnDHash : 69EE6A5B
+				/// @DnDParent : 13BAC711
+				/// @DnDArgument : "var" "y"
+				/// @DnDArgument : "op" "3"
+				/// @DnDArgument : "value" "yBegin + 5"
+				if(y <= yBegin + 5)
+				{
+					/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+					/// @DnDVersion : 1
+					/// @DnDHash : 1649C3AE
+					/// @DnDParent : 69EE6A5B
+					/// @DnDArgument : "y" "1"
+					/// @DnDArgument : "y_relative" "1"
+					
+					y += 1;
+				}
+			
+				/// @DnDAction : YoYo Games.Common.If_Variable
+				/// @DnDVersion : 1
+				/// @DnDHash : 3973A60B
+				/// @DnDParent : 13BAC711
+				/// @DnDArgument : "var" "y"
+				/// @DnDArgument : "op" "2"
+				/// @DnDArgument : "value" "yBegin + 4"
+				if(y > yBegin + 4)
+				{
+					/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+					/// @DnDVersion : 1
+					/// @DnDHash : 1B21540B
+					/// @DnDParent : 3973A60B
+					/// @DnDArgument : "y" "0"
+					/// @DnDArgument : "y_relative" "1"
+					
+					y += 0;
+				}
+			}
+		
+			/// @DnDAction : YoYo Games.Common.Else
+			/// @DnDVersion : 1
+			/// @DnDHash : 3014AFC9
+			/// @DnDParent : 58991AC5
+			else
 			{
 				/// @DnDAction : YoYo Games.Movement.Jump_To_Point
 				/// @DnDVersion : 1
 				/// @DnDHash : 0065C681
-				/// @DnDParent : 69EE6A5B
-				/// @DnDArgument : "y" "1"
+				/// @DnDParent : 3014AFC9
+				/// @DnDArgument : "y" "0.5"
 				/// @DnDArgument : "y_relative" "1"
 				
-				y += 1;
+				y += 0.5;
 			
-				/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
+				/// @DnDAction : YoYo Games.Common.If_Variable
 				/// @DnDVersion : 1
-				/// @DnDHash : 5C755E68
-				/// @DnDParent : 69EE6A5B
-				/// @DnDArgument : "msg" "yBegin"
-				show_debug_message(string(yBegin));
-			}
-		
-			/// @DnDAction : YoYo Games.Common.If_Variable
-			/// @DnDVersion : 1
-			/// @DnDHash : 3973A60B
-			/// @DnDParent : 58991AC5
-			/// @DnDArgument : "var" "y"
-			/// @DnDArgument : "value" "yBegin + 5"
-			if(y == yBegin + 5)
-			{
-				/// @DnDAction : YoYo Games.Common.Variable
+				/// @DnDHash : 2F836634
+				/// @DnDParent : 3014AFC9
+				/// @DnDArgument : "var" "y % 2"
+				if(y % 2 == 0)
+				{
+					/// @DnDAction : YoYo Games.Common.Variable
+					/// @DnDVersion : 1
+					/// @DnDHash : 07523EA3
+					/// @DnDParent : 2F836634
+					/// @DnDArgument : "expr" "+1"
+					/// @DnDArgument : "expr_relative" "1"
+					/// @DnDArgument : "var" "obj_control.enemySpawnOffset"
+					obj_control.enemySpawnOffset += +1;
+				
+					/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
+					/// @DnDVersion : 1
+					/// @DnDHash : 4026D654
+					/// @DnDParent : 2F836634
+					/// @DnDArgument : "msg" "obj_control.enemySpawnOffset"
+					show_debug_message(string(obj_control.enemySpawnOffset));
+				
+					/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
+					/// @DnDVersion : 1
+					/// @DnDHash : 07475C80
+					/// @DnDParent : 2F836634
+					/// @DnDArgument : "msg" "y % 5"
+					show_debug_message(string(y % 5));
+				}
+			
+				/// @DnDAction : YoYo Games.Common.If_Variable
 				/// @DnDVersion : 1
-				/// @DnDHash : 193E81A5
-				/// @DnDParent : 3973A60B
-				/// @DnDArgument : "expr" "false"
-				/// @DnDArgument : "var" "yMoving"
-				yMoving = false;
+				/// @DnDHash : 5F34832C
+				/// @DnDParent : 3014AFC9
+				/// @DnDArgument : "var" "obj_control.enemySpawnOffset"
+				/// @DnDArgument : "op" "2"
+				/// @DnDArgument : "value" "7"
+				if(obj_control.enemySpawnOffset > 7)
+				{
+					/// @DnDAction : YoYo Games.Common.Variable
+					/// @DnDVersion : 1
+					/// @DnDHash : 280DBAA3
+					/// @DnDParent : 5F34832C
+					/// @DnDArgument : "var" "obj_control.enemySpawnOffset"
+					obj_control.enemySpawnOffset = 0;
+				}
 			}
 		}
 	}

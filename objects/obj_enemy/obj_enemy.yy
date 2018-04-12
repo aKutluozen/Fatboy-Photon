@@ -25,23 +25,13 @@
             "m_owner": "fc04d33c-8fcd-4e40-9231-11ecfec26f22"
         },
         {
-            "id": "92f23a76-490a-4edc-95ad-1eb126a66fe3",
+            "id": "e1437c76-e59f-41da-9444-15308c612117",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": true,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 1,
-            "eventtype": 3,
-            "m_owner": "fc04d33c-8fcd-4e40-9231-11ecfec26f22"
-        },
-        {
-            "id": "9a159c01-e473-4d90-9e72-7a794342d170",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": true,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 2,
-            "eventtype": 3,
+            "enumb": 0,
+            "eventtype": 0,
             "m_owner": "fc04d33c-8fcd-4e40-9231-11ecfec26f22"
         }
     ],
@@ -100,9 +90,9 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "False",
-            "varName": "yMoving",
-            "varType": 3
+            "value": "0",
+            "varName": "yBegin",
+            "varType": 1
         }
     ],
     "solid": false,
