@@ -7,26 +7,22 @@ image_angle = direction + 90;
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 461C5F4B
+/// @DnDDisabled : 1
 /// @DnDArgument : "var" "coolDown"
 /// @DnDArgument : "op" "4"
 /// @DnDArgument : "value" "100"
-if(coolDown >= 100)
-{
-	/// @DnDAction : YoYo Games.Common.Variable
-	/// @DnDVersion : 1
-	/// @DnDHash : 26546010
-	/// @DnDInput : 3
-	/// @DnDParent : 461C5F4B
-	/// @DnDArgument : "expr" "1"
-	/// @DnDArgument : "expr_1" ""cannon_burning""
-	/// @DnDArgument : "expr_2" "100"
-	/// @DnDArgument : "var" "burning"
-	/// @DnDArgument : "var_1" "obj_control.gameStatus"
-	/// @DnDArgument : "var_2" "coolDown"
-	burning = 1;
-	obj_control.gameStatus = "cannon_burning";
-	coolDown = 100;
-}
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 26546010
+/// @DnDInput : 3
+/// @DnDDisabled : 1
+/// @DnDParent : 461C5F4B
+/// @DnDArgument : "expr" "1"
+/// @DnDArgument : "expr_1" ""enemy_forward""
+/// @DnDArgument : "expr_2" "100"
+/// @DnDArgument : "var" "burning"
+/// @DnDArgument : "var_1" "obj_control.gameStatus"
+/// @DnDArgument : "var_2" "coolDown"
 
 /// @DnDAction : YoYo Games.Common.If_Expression
 /// @DnDVersion : 1

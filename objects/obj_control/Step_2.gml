@@ -9,14 +9,13 @@ if(gameStatus == "enemy_moving")
 	/// @DnDVersion : 1
 	/// @DnDHash : 7A6637CD
 	/// @DnDParent : 022A040D
-	/// @DnDArgument : "steps" "120"
-	alarm_set(0, 120);
+	alarm_set(0, 30);
 
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 6993C35F
 	/// @DnDParent : 022A040D
-	/// @DnDArgument : "expr" ""cannon_burning""
+	/// @DnDArgument : "expr" ""enemy_forward""
 	/// @DnDArgument : "var" "gameStatus"
-	gameStatus = "cannon_burning";
+	gameStatus = "enemy_forward";
 }
