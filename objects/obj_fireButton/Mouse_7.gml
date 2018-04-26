@@ -137,4 +137,29 @@ if(obj_control.controlLock == false)
 		/// @DnDParent : 475B2832
 		with(obj_energy) instance_destroy();
 	}
+
+	/// @DnDAction : YoYo Games.Common.Else
+	/// @DnDVersion : 1
+	/// @DnDHash : 66269BF6
+	/// @DnDParent : 28BC7674
+	else
+	{
+		/// @DnDAction : YoYo Games.Instances.Create_Instance
+		/// @DnDVersion : 1
+		/// @DnDHash : 1DA914B8
+		/// @DnDParent : 66269BF6
+		/// @DnDArgument : "xpos" "obj_cannon.x"
+		/// @DnDArgument : "ypos" "obj_cannon.y"
+		/// @DnDArgument : "objectid" "obj_photonJesus"
+		/// @DnDArgument : "layer" ""Layer_Instances""
+		/// @DnDSaveInfo : "objectid" "394933b9-b318-444f-bd6e-556c653b61d9"
+		instance_create_layer(obj_cannon.x, obj_cannon.y, "Layer_Instances", obj_photonJesus);
+	
+		/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
+		/// @DnDVersion : 1
+		/// @DnDHash : 12E7450E
+		/// @DnDParent : 66269BF6
+		/// @DnDArgument : "msg" ""firing! all the time""
+		show_debug_message(string("firing! all the time"));
+	}
 }

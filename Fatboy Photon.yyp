@@ -255,6 +255,14 @@
             }
         },
         {
+            "Key": "394933b9-b318-444f-bd6e-556c653b61d9",
+            "Value": {
+                "id": "ddfb1292-ea6b-4885-8110-734b14e15edc",
+                "resourcePath": "objects\\obj_photonJesus\\obj_photonJesus.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "39caf3e8-88bb-4b7a-afd0-5c9999d70fcb",
             "Value": {
                 "id": "95fd232f-4348-4ec9-8e09-5b291e06ba76",

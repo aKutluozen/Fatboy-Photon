@@ -41,7 +41,7 @@
             "mvc": "1.0",
             "objectId": "fc04d33c-8fcd-4e40-9231-11ecfec26f22",
             "propertyId": "871c7274-7fb2-4201-a727-9213c8ee8f11",
-            "value": "irandom_range(3, 6)"
+            "value": "2"
         }
     ],
     "parentObjectId": "fc04d33c-8fcd-4e40-9231-11ecfec26f22",

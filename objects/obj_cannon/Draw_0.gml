@@ -31,7 +31,6 @@ draw_text(120, 300, string("x") + string(specialWeaponAmmo));
 /// @DnDAction : YoYo Games.Drawing.Draw_Sprite_Transformed
 /// @DnDVersion : 1
 /// @DnDHash : 58B1D940
-/// @DnDDisabled : 1
 /// @DnDArgument : "x" "x"
 /// @DnDArgument : "y" "y"
 /// @DnDArgument : "yscale" "0 + (coolDown / 200)"
@@ -39,7 +38,7 @@ draw_text(120, 300, string("x") + string(specialWeaponAmmo));
 /// @DnDArgument : "sprite" "spr_coolDown"
 /// @DnDArgument : "col" "$FF0000FF"
 /// @DnDSaveInfo : "sprite" "96837df9-0dc1-45b0-94b2-71a6886d5755"
-
+draw_sprite_ext(spr_coolDown, 0, x, y, 1, 0 + (coolDown / 200), direction - 90, $FF0000FF & $ffffff, ($FF0000FF >> 24) / $ff);
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
