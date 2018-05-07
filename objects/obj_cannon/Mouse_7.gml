@@ -19,8 +19,7 @@ if(burning == 1)
 /// @DnDVersion : 1
 /// @DnDHash : 4C6D94CE
 /// @DnDArgument : "var" "coolDown"
-/// @DnDArgument : "op" "3"
-if(coolDown <= 0)
+if(coolDown == 0)
 {
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
@@ -34,4 +33,19 @@ if(coolDown <= 0)
 	burning = 0;
 	coolDown = 0;
 	obj_control.gameStatus = "player_moving";
+}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 1142B96D
+/// @DnDArgument : "var" "coolDown"
+/// @DnDArgument : "value" "-1"
+if(coolDown == -1)
+{
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 0475F8C7
+	/// @DnDParent : 1142B96D
+	/// @DnDArgument : "var" "burning"
+	burning = 0;
 }

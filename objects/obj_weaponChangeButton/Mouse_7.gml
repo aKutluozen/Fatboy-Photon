@@ -1,6 +1,14 @@
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 6D2F0A0F
+/// @DnDDisabled : 1
+/// @DnDArgument : "var" "obj_cannonControlButton.isClicked"
+/// @DnDArgument : "not" "1"
+/// @DnDArgument : "value" "true"
 /// @DnDAction : YoYo Games.Data Structures.List_Count
 /// @DnDVersion : 1
 /// @DnDHash : 1E265B3E
+/// @DnDParent : 6D2F0A0F
 /// @DnDArgument : "assignee" "weaponsLength"
 /// @DnDArgument : "var" "obj_control.weapons"
 weaponsLength = ds_list_size(obj_control.weapons);
@@ -8,6 +16,7 @@ weaponsLength = ds_list_size(obj_control.weapons);
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 395156F6
+/// @DnDParent : 6D2F0A0F
 /// @DnDArgument : "var" "weaponNumber"
 /// @DnDArgument : "op" "1"
 /// @DnDArgument : "value" "weaponsLength"
@@ -26,6 +35,7 @@ if(weaponNumber < weaponsLength)
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 3F533FE7
+/// @DnDParent : 6D2F0A0F
 /// @DnDArgument : "var" "weaponNumber"
 /// @DnDArgument : "value" "weaponsLength"
 if(weaponNumber == weaponsLength)
@@ -41,6 +51,7 @@ if(weaponNumber == weaponsLength)
 /// @DnDAction : YoYo Games.Data Structures.List_Get_At
 /// @DnDVersion : 1
 /// @DnDHash : 47BC8F6E
+/// @DnDParent : 6D2F0A0F
 /// @DnDArgument : "assignee" "weaponSelected"
 /// @DnDArgument : "var" "obj_control.weapons"
 /// @DnDArgument : "index" "weaponNumber"

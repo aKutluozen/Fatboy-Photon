@@ -38,11 +38,11 @@ if(l094D9ADC_0)
 		/// @DnDHash : 58991AC5
 		/// @DnDParent : 6EDF6DFF
 		/// @DnDArgument : "x" "x"
-		/// @DnDArgument : "y" "y + 1"
+		/// @DnDArgument : "y" "y + 20"
 		/// @DnDArgument : "object" "obj_enemy"
 		/// @DnDArgument : "not" "1"
 		/// @DnDSaveInfo : "object" "fc04d33c-8fcd-4e40-9231-11ecfec26f22"
-		var l58991AC5_0 = instance_place(x, y + 1, obj_enemy);
+		var l58991AC5_0 = instance_place(x, y + 20, obj_enemy);
 		if (!(l58991AC5_0 > 0))
 		{
 			/// @DnDAction : YoYo Games.Common.If_Variable

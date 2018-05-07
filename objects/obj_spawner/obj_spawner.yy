@@ -72,7 +72,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "6",
+            "value": "1",
             "varName": "level",
             "varType": 1
         },
@@ -88,6 +88,20 @@
             "resourceFilter": 1023,
             "value": "0",
             "varName": "spawnInterval",
+            "varType": 1
+        },
+        {
+            "id": "c19ae808-b2f0-4993-915a-d16218317fdd",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "levelCounter",
             "varType": 1
         }
     ],

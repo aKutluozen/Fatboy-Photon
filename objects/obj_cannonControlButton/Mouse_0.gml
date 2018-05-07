@@ -21,4 +21,12 @@ if (l6AF501CC_0)
 	/// @DnDParent : 6AF501CC
 	/// @DnDArgument : "direction" "direction"
 	with(obj_cannon) direction = direction;
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 27CF9D5D
+	/// @DnDParent : 6AF501CC
+	/// @DnDArgument : "expr" "true"
+	/// @DnDArgument : "var" "isClicked"
+	isClicked = true;
 }
