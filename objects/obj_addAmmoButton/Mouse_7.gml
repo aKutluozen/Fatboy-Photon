@@ -30,10 +30,4 @@ if(isClickable == true)
 	obj_questionModal.questionPrice = ammoPrice;
 	obj_questionModal.questionItem = itemToAddTo;
 	obj_questionModal.addAmmo = true;
-
-	/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
-	/// @DnDVersion : 1
-	/// @DnDHash : 3FFF7875
-	/// @DnDParent : 6297A418
-	show_debug_message(string("debug message"));
 }

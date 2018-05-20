@@ -15,16 +15,6 @@
             "m_owner": "e73408c0-5e4f-4d29-8e6a-20507e11f1b0"
         },
         {
-            "id": "611547c9-631e-4772-85b7-4e472101aa20",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": true,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 82,
-            "eventtype": 9,
-            "m_owner": "e73408c0-5e4f-4d29-8e6a-20507e11f1b0"
-        },
-        {
             "id": "b5a5331e-92d1-49db-a82b-17c559c81549",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -72,7 +62,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "1",
+            "value": "3",
             "varName": "level",
             "varType": 1
         },

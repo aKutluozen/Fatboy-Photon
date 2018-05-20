@@ -15,17 +15,7 @@
             "m_owner": "21ae94b6-dde3-4faf-9379-42107c019666"
         },
         {
-            "id": "c56fbffb-f9c2-4de9-9982-efe0ba7114e9",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": true,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "21ae94b6-dde3-4faf-9379-42107c019666"
-        },
-        {
-            "id": "5b51ffd2-d892-44e4-ae55-347dfbe75301",
+            "id": "dc6c91c9-de8f-49f1-ac1b-46e6161fba2c",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": true,
@@ -91,23 +81,9 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "green",
+            "value": "rapid",
             "varName": "photonColor",
             "varType": 2
-        },
-        {
-            "id": "2c8795ec-7fc3-4260-b4eb-561f8d2a4bc9",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0",
-            "varName": "hitNumber",
-            "varType": 1
         }
     ],
     "solid": false,

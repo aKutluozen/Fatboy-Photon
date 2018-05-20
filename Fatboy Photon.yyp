@@ -402,7 +402,7 @@
             "Key": "603b1e59-7997-44c5-a7b3-acc5868d70e2",
             "Value": {
                 "id": "0cd2bda5-c8eb-4ee1-97b0-00185262af4a",
-                "resourcePath": "rooms\/room2\/room2.yy",
+                "resourcePath": "rooms\\infinite_room\\infinite_room.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -623,14 +623,6 @@
             }
         },
         {
-            "Key": "82aa7981-e6c7-439c-aaa8-3a95d11838f3",
-            "Value": {
-                "id": "3ef8c600-b719-4928-838b-e6fbcd1f4a4a",
-                "resourcePath": "objects\/obj_wallOfPhotons\/obj_wallOfPhotons.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "8427047f-9ef8-4c77-89f3-9c20623d07b6",
             "Value": {
                 "id": "551041a1-15f2-407d-b42d-453d0a823380",
@@ -667,14 +659,6 @@
             "Value": {
                 "id": "5353d581-5404-4247-a5c5-b3440568f42e",
                 "resourcePath": "objects\/obj_lumenExplosion\/obj_lumenExplosion.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "8db744cd-9bd0-4ea9-9b5f-2dbc5d00270f",
-            "Value": {
-                "id": "8a77a935-ae7d-400a-ba73-7e40f9ec2e8b",
-                "resourcePath": "objects\\obj_jesus\\obj_jesus.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -756,14 +740,6 @@
                 "id": "817994a5-ee02-48c6-94ba-c4be912f5915",
                 "resourcePath": "options\/amazonfire\/options_amazonfire.yy",
                 "resourceType": "GMAmazonFireOptions"
-            }
-        },
-        {
-            "Key": "a172af4e-280b-48cd-a2cf-a957d574e283",
-            "Value": {
-                "id": "584e96d7-489e-4698-8673-28125760926a",
-                "resourcePath": "objects\/obj_wall\/obj_wall.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -900,14 +876,6 @@
                 "id": "75c5d50e-fc62-4424-8383-ff92d89d1a90",
                 "resourcePath": "sprites\/spr_explosion1\/spr_explosion1.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "c44d461e-57fc-46b9-a45c-b386f9ed43cc",
-            "Value": {
-                "id": "06983ad6-272d-4395-9e22-4485da4d6597",
-                "resourcePath": "rooms\/level_1\/level_1.yy",
-                "resourceType": "GMRoom"
             }
         },
         {

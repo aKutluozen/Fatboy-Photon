@@ -26,13 +26,13 @@ if(coolDown >= 100)
 		/// @DnDInput : 3
 		/// @DnDParent : 630A4F98
 		/// @DnDArgument : "expr" "1"
-		/// @DnDArgument : "expr_1" ""enemy_forward""
+		/// @DnDArgument : "expr_1" ""enemy_moving""
 		/// @DnDArgument : "expr_2" "100"
 		/// @DnDArgument : "var" "burning"
 		/// @DnDArgument : "var_1" "obj_control.gameStatus"
 		/// @DnDArgument : "var_2" "coolDown"
 		burning = 1;
-		obj_control.gameStatus = "enemy_forward";
+		obj_control.gameStatus = "enemy_moving";
 		coolDown = 100;
 	}
 }
@@ -93,20 +93,34 @@ if(shootingRapid == 1)
 		/// @DnDArgument : "var" "obj_cannon.burning"
 		if(obj_cannon.burning == 0)
 		{
+			/// @DnDAction : YoYo Games.Common.Execute_Code
+			/// @DnDVersion : 1
+			/// @DnDHash : 51A4C10A
+			/// @DnDApplyTo : fc04d33c-8fcd-4e40-9231-11ecfec26f22
+			/// @DnDParent : 1DC7E666
+			/// @DnDArgument : "code" "event_perform(ev_create, 0);"
+			with(obj_enemy) {
+			event_perform(ev_create, 0);
+			}
+		
 			/// @DnDAction : YoYo Games.Common.Variable
 			/// @DnDVersion : 1
-			/// @DnDHash : 47C4D97A
+			/// @DnDHash : 74EF613F
+			/// @DnDInput : 4
 			/// @DnDParent : 1DC7E666
-			/// @DnDArgument : "expr" ""enemy_moving""
-			/// @DnDArgument : "var" "obj_control.gameStatus"
+			/// @DnDArgument : "expr" "1"
+			/// @DnDArgument : "expr_relative" "1"
+			/// @DnDArgument : "expr_1" "1"
+			/// @DnDArgument : "expr_relative_1" "1"
+			/// @DnDArgument : "expr_3" ""enemy_moving""
+			/// @DnDArgument : "var" "obj_spawner.spawnInterval"
+			/// @DnDArgument : "var_1" "obj_spawner.levelCounter"
+			/// @DnDArgument : "var_2" "successfulHits"
+			/// @DnDArgument : "var_3" "obj_control.gameStatus"
+			obj_spawner.spawnInterval += 1;
+			obj_spawner.levelCounter += 1;
+			successfulHits = 0;
 			obj_control.gameStatus = "enemy_moving";
-		
-			/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
-			/// @DnDVersion : 1
-			/// @DnDHash : 4915C958
-			/// @DnDParent : 1DC7E666
-			/// @DnDArgument : "msg" ""are we executing?""
-			show_debug_message(string("are we executing?"));
 		}
 	}
 }

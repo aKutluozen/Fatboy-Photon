@@ -154,12 +154,5 @@ if(obj_control.controlLock == false)
 		/// @DnDArgument : "layer" ""Layer_Instances""
 		/// @DnDSaveInfo : "objectid" "394933b9-b318-444f-bd6e-556c653b61d9"
 		instance_create_layer(obj_cannon.x, obj_cannon.y, "Layer_Instances", obj_photonJesus);
-	
-		/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
-		/// @DnDVersion : 1
-		/// @DnDHash : 12E7450E
-		/// @DnDParent : 66269BF6
-		/// @DnDArgument : "msg" ""firing! all the time""
-		show_debug_message(string("firing! all the time"));
 	}
 }

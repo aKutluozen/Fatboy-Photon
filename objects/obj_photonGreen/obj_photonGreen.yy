@@ -4,36 +4,7 @@
     "mvc": "1.0",
     "name": "obj_photonGreen",
     "eventList": [
-        {
-            "id": "47ea6a3a-f333-4122-93c4-b62420f02823",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": true,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "8fceb006-fb63-48e9-a865-0a24c3d165d1"
-        },
-        {
-            "id": "77d04192-2081-4cc2-9638-88df1eb91ebb",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": true,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "8fceb006-fb63-48e9-a865-0a24c3d165d1"
-        },
-        {
-            "id": "4e1f0114-a810-4376-aa23-50580ed6950d",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": true,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 1,
-            "m_owner": "8fceb006-fb63-48e9-a865-0a24c3d165d1"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -94,20 +65,6 @@
             "value": "green",
             "varName": "photonColor",
             "varType": 2
-        },
-        {
-            "id": "a510228a-d4fd-4fa4-90d1-06d5b1ccf4c5",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0",
-            "varName": "hitNumber",
-            "varType": 1
         }
     ],
     "solid": false,

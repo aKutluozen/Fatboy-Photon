@@ -496,13 +496,6 @@ if(obj_storeControl.money >= obj_questionModal.questionPrice)
 		/// @DnDArgument : "expr_relative" "1"
 		/// @DnDArgument : "var" "obj_storeControl.money"
 		obj_storeControl.money += -obj_questionModal.questionPrice;
-	
-		/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
-		/// @DnDVersion : 1
-		/// @DnDHash : 02DA9C42
-		/// @DnDParent : 0D3676F0
-		/// @DnDArgument : "msg" ""debug heereeee""
-		show_debug_message(string("debug heereeee"));
 	}
 
 	/// @DnDAction : YoYo Games.Instances.Destroy_Instance

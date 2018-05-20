@@ -61,7 +61,7 @@
             "IsDnD": true,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 13,
-            "eventtype": 5,
+            "eventtype": 10,
             "m_owner": "1bd8a1c3-d698-40da-9469-888b663a0558"
         }
     ],
@@ -150,6 +150,34 @@
             "resourceFilter": 1023,
             "value": "0",
             "varName": "enemySpawnOffset",
+            "varType": 1
+        },
+        {
+            "id": "3a46cb22-df03-460b-b024-afd0d7518ad4",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "False",
+            "varName": "isEnemyFrozen",
+            "varType": 3
+        },
+        {
+            "id": "0eee3e60-36da-4723-96bc-c5c9af64fd36",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "wallRounds",
             "varType": 1
         }
     ],

@@ -161,8 +161,8 @@ if(obj_control.controlLock == false)
 					/// @DnDVersion : 1
 					/// @DnDHash : 224F03C2
 					/// @DnDParent : 3AB163C4
-					/// @DnDArgument : "steps" "60"
-					alarm_set(0, 60);
+					/// @DnDArgument : "steps" "15"
+					alarm_set(0, 15);
 				
 					/// @DnDAction : YoYo Games.Common.Variable
 					/// @DnDVersion : 1

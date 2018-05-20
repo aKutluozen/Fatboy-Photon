@@ -94,9 +94,3 @@ if(obj_storeControl.haveWall == 1)
 /// @DnDArgument : "assignee" "listlength"
 /// @DnDArgument : "var" "weapons"
 listlength = ds_list_size(weapons);
-
-/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
-/// @DnDVersion : 1
-/// @DnDHash : 52889CAC
-/// @DnDArgument : "msg" "listlength"
-show_debug_message(string(listlength));

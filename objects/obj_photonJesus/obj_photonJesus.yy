@@ -5,36 +5,6 @@
     "name": "obj_photonJesus",
     "eventList": [
         {
-            "id": "62b66edf-e8af-4df8-b6a8-aadb03bb0f38",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": true,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 1,
-            "m_owner": "394933b9-b318-444f-bd6e-556c653b61d9"
-        },
-        {
-            "id": "fd4d145b-3b7b-4c7e-b434-9791f4cd8132",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": true,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 7,
-            "m_owner": "394933b9-b318-444f-bd6e-556c653b61d9"
-        },
-        {
-            "id": "339f7e03-85c0-4b93-99ac-d37b39c4be0b",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": true,
-            "collisionObjectId": "a172af4e-280b-48cd-a2cf-a957d574e283",
-            "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "394933b9-b318-444f-bd6e-556c653b61d9"
-        },
-        {
             "id": "7c0f2f6d-bd44-4b7e-b32e-0a73d679dabf",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -114,20 +84,6 @@
             "value": "green",
             "varName": "photonColor",
             "varType": 2
-        },
-        {
-            "id": "64d7a627-82e3-4b0d-ac9c-25f2d9ff4ba4",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0",
-            "varName": "hitNumber",
-            "varType": 1
         }
     ],
     "solid": false,

@@ -4,46 +4,7 @@
     "mvc": "1.0",
     "name": "obj_photonBlue",
     "eventList": [
-        {
-            "id": "56c50ff4-50eb-476a-a83d-7df7d3a4121c",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": true,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "b726c13e-b686-49c4-856b-a6adf43b3a71"
-        },
-        {
-            "id": "f85a62ba-b5b3-42aa-a4a3-bb001768ffe2",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": true,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "b726c13e-b686-49c4-856b-a6adf43b3a71"
-        },
-        {
-            "id": "b6c145e4-8a06-45b2-80da-56d15747bd2e",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": true,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 1,
-            "m_owner": "b726c13e-b686-49c4-856b-a6adf43b3a71"
-        },
-        {
-            "id": "d1f4f41b-4b27-45d5-a3f6-3c79fe265204",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": true,
-            "collisionObjectId": "fc04d33c-8fcd-4e40-9231-11ecfec26f22",
-            "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "b726c13e-b686-49c4-856b-a6adf43b3a71"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -104,20 +65,6 @@
             "value": "blue",
             "varName": "photonColor",
             "varType": 2
-        },
-        {
-            "id": "1a15bab3-ffcc-4649-8d51-e9343c426446",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0",
-            "varName": "hitNumber",
-            "varType": 1
         }
     ],
     "solid": false,

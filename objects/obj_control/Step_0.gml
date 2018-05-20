@@ -7,6 +7,22 @@
 /// @DnDSaveInfo : "object" "c68edf11-6767-492f-bf08-9664c574b46a"
 var photonCount = instance_number(obj_photon);
 
+/// @DnDAction : YoYo Games.Instances.Instance_Get_Count
+/// @DnDVersion : 1
+/// @DnDHash : 6CB606CC
+/// @DnDArgument : "var" "photonRapidCount"
+/// @DnDArgument : "var_temp" "1"
+/// @DnDArgument : "object" "obj_photonRapid"
+/// @DnDSaveInfo : "object" "21ae94b6-dde3-4faf-9379-42107c019666"
+var photonRapidCount = instance_number(obj_photonRapid);
+
+/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
+/// @DnDVersion : 1
+/// @DnDHash : 36E49499
+/// @DnDDisabled : 1
+/// @DnDArgument : "msg" "photonRapidCount"
+
+
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 37575F88

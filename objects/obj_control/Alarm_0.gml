@@ -56,29 +56,6 @@ if(enemyCount < 4)
 	room_goto(main_menu);
 }
 
-/// @DnDAction : YoYo Games.Instances.If_Instance_Exists
-/// @DnDVersion : 1
-/// @DnDHash : 18554990
-/// @DnDArgument : "obj" "obj_wallOfPhotons"
-/// @DnDSaveInfo : "obj" "82aa7981-e6c7-439c-aaa8-3a95d11838f3"
-var l18554990_0 = false;
-l18554990_0 = instance_exists(obj_wallOfPhotons);
-if(l18554990_0)
-{
-	/// @DnDAction : YoYo Games.Common.Variable
-	/// @DnDVersion : 1
-	/// @DnDHash : 7F5ED4B3
-	/// @DnDApplyTo : 82aa7981-e6c7-439c-aaa8-3a95d11838f3
-	/// @DnDParent : 18554990
-	/// @DnDArgument : "expr" "-1"
-	/// @DnDArgument : "expr_relative" "1"
-	/// @DnDArgument : "var" "wallRounds"
-	with(obj_wallOfPhotons) {
-	wallRounds += -1;
-	
-	}
-}
-
 /// @DnDAction : YoYo Games.Common.Temp_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 2D140F63
