@@ -1,13 +1,12 @@
 /// @DnDAction : YoYo Games.Collisions.If_Object_At
 /// @DnDVersion : 1
 /// @DnDHash : 2321A8CB
-/// @DnDArgument : "x" "x - hspeed"
 /// @DnDArgument : "y" "y"
 /// @DnDArgument : "target" "enemy"
 /// @DnDArgument : "target_temp" "1"
 /// @DnDArgument : "object" "obj_enemy"
 /// @DnDSaveInfo : "object" "fc04d33c-8fcd-4e40-9231-11ecfec26f22"
-var l2321A8CB_0 = instance_place(x - hspeed, y, obj_enemy);
+var l2321A8CB_0 = instance_place(0, y, obj_enemy);
 var enemy = l2321A8CB_0;
 if ((l2321A8CB_0 > 0))
 {
@@ -17,6 +16,16 @@ if ((l2321A8CB_0 > 0))
 	/// @DnDParent : 2321A8CB
 	/// @DnDArgument : "dir" "1"
 	hspeed = -hspeed;
+
+	/// @DnDAction : YoYo Games.Particles.Effect
+	/// @DnDVersion : 1
+	/// @DnDHash : 0713BE45
+	/// @DnDParent : 2321A8CB
+	/// @DnDArgument : "x" "x - hspeed"
+	/// @DnDArgument : "y" "y"
+	/// @DnDArgument : "type" "7"
+	/// @DnDArgument : "where" "1"
+	effect_create_above(7, x - hspeed, y, 0, $FFFFFFFF & $ffffff);
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
@@ -88,6 +97,16 @@ if ((l1397CD73_0 > 0))
 	/// @DnDArgument : "dir" "1"
 	hspeed = -hspeed;
 
+	/// @DnDAction : YoYo Games.Particles.Effect
+	/// @DnDVersion : 1
+	/// @DnDHash : 53CE74EF
+	/// @DnDParent : 1397CD73
+	/// @DnDArgument : "x" "x + hspeed"
+	/// @DnDArgument : "y" "y"
+	/// @DnDArgument : "type" "7"
+	/// @DnDArgument : "where" "1"
+	effect_create_above(7, x + hspeed, y, 0, $FFFFFFFF & $ffffff);
+
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 7CEC231B
@@ -157,6 +176,16 @@ if ((l14B8C768_0 > 0))
 	/// @DnDParent : 14B8C768
 	/// @DnDArgument : "dir" "2"
 	vspeed = -vspeed;
+
+	/// @DnDAction : YoYo Games.Particles.Effect
+	/// @DnDVersion : 1
+	/// @DnDHash : 64D6E6A9
+	/// @DnDParent : 14B8C768
+	/// @DnDArgument : "x" "x"
+	/// @DnDArgument : "y" "y - vspeed"
+	/// @DnDArgument : "type" "7"
+	/// @DnDArgument : "where" "1"
+	effect_create_above(7, x, y - vspeed, 0, $FFFFFFFF & $ffffff);
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
@@ -228,6 +257,16 @@ if ((l349D06A7_0 > 0))
 	/// @DnDArgument : "dir" "2"
 	vspeed = -vspeed;
 
+	/// @DnDAction : YoYo Games.Particles.Effect
+	/// @DnDVersion : 1
+	/// @DnDHash : 001FAF9E
+	/// @DnDParent : 349D06A7
+	/// @DnDArgument : "x" "x"
+	/// @DnDArgument : "y" "y - vspeed"
+	/// @DnDArgument : "type" "7"
+	/// @DnDArgument : "where" "1"
+	effect_create_above(7, x, y - vspeed, 0, $FFFFFFFF & $ffffff);
+
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 0EBAA6A1
@@ -259,18 +298,6 @@ if ((l349D06A7_0 > 0))
 		obj_control.gameScore += obj_control.scoreMultiplier;
 		enemy.enemyLife += - 1;
 		successfulHits += 1;
-	
-		/// @DnDAction : YoYo Games.Common.If_Variable
-		/// @DnDVersion : 1
-		/// @DnDHash : 3F1E0DF5
-		/// @DnDParent : 0EBAA6A1
-		/// @DnDArgument : "var" "enemy.enemyColor"
-		/// @DnDArgument : "not" "1"
-		/// @DnDArgument : "value" ""wall""
-		if(!(enemy.enemyColor == "wall"))
-		{
-		
-		}
 	}
 
 	/// @DnDAction : YoYo Games.Common.Else
@@ -331,6 +358,16 @@ if(y + vspeed <= 10)
 	/// @DnDArgument : "dir" "2"
 	vspeed = -vspeed;
 
+	/// @DnDAction : YoYo Games.Particles.Effect
+	/// @DnDVersion : 1
+	/// @DnDHash : 0EF171F0
+	/// @DnDParent : 10B3AE7B
+	/// @DnDArgument : "x" "x"
+	/// @DnDArgument : "y" "y + vspeed"
+	/// @DnDArgument : "type" "7"
+	/// @DnDArgument : "where" "1"
+	effect_create_above(7, x, y + vspeed, 0, $FFFFFFFF & $ffffff);
+
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 7258C6B1
@@ -360,6 +397,16 @@ if(x + hspeed <= 10)
 	/// @DnDArgument : "dir" "1"
 	hspeed = -hspeed;
 
+	/// @DnDAction : YoYo Games.Particles.Effect
+	/// @DnDVersion : 1
+	/// @DnDHash : 1E63D967
+	/// @DnDParent : 056C8B91
+	/// @DnDArgument : "x" "x + hspeed"
+	/// @DnDArgument : "y" "y"
+	/// @DnDArgument : "type" "7"
+	/// @DnDArgument : "where" "1"
+	effect_create_above(7, x + hspeed, y, 0, $FFFFFFFF & $ffffff);
+
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 562A4FD5
@@ -388,6 +435,16 @@ if(x + hspeed >= 170)
 	/// @DnDParent : 60CD49EA
 	/// @DnDArgument : "dir" "1"
 	hspeed = -hspeed;
+
+	/// @DnDAction : YoYo Games.Particles.Effect
+	/// @DnDVersion : 1
+	/// @DnDHash : 1B6C9104
+	/// @DnDParent : 60CD49EA
+	/// @DnDArgument : "x" "x + hspeed"
+	/// @DnDArgument : "y" "y"
+	/// @DnDArgument : "type" "7"
+	/// @DnDArgument : "where" "1"
+	effect_create_above(7, x + hspeed, y, 0, $FFFFFFFF & $ffffff);
 
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1

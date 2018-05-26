@@ -1,8 +1,8 @@
 /// @DnDAction : YoYo Games.Movement.Set_Speed
 /// @DnDVersion : 1
 /// @DnDHash : 5DAC27A3
-/// @DnDArgument : "speed" "2"
-speed = 2;
+/// @DnDArgument : "speed" "4"
+speed = 4;
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1

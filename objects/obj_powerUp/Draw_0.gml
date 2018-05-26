@@ -8,6 +8,6 @@ draw_self();
 /// @DnDHash : 3AFD5674
 /// @DnDArgument : "x" "x"
 /// @DnDArgument : "y" "y"
-/// @DnDArgument : "caption" ""+""
+/// @DnDArgument : "caption" ""powerup +""
 /// @DnDArgument : "var" "powerUp"
-draw_text(x, y, string("+") + string(powerUp));
+draw_text(x, y, string("powerup +") + string(powerUp));

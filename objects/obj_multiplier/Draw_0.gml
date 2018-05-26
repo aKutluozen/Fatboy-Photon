@@ -8,6 +8,6 @@ draw_self();
 /// @DnDHash : 3AFD5674
 /// @DnDArgument : "x" "x"
 /// @DnDArgument : "y" "y"
-/// @DnDArgument : "caption" ""x""
+/// @DnDArgument : "caption" ""mult - x""
 /// @DnDArgument : "var" "multiplier"
-draw_text(x, y, string("x") + string(multiplier));
+draw_text(x, y, string("mult - x") + string(multiplier));

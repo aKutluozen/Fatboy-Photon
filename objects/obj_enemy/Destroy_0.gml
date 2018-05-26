@@ -17,6 +17,18 @@ if(enemyColor == "green")
 	/// @DnDArgument : "var_1" "obj_cannon.energy"
 	obj_control.gameScore += obj_control.scoreMultiplier;
 	obj_cannon.energy += obj_control.scoreMultiplier;
+
+	/// @DnDAction : YoYo Games.Particles.Effect
+	/// @DnDVersion : 1
+	/// @DnDHash : 7FA84967
+	/// @DnDParent : 34712872
+	/// @DnDArgument : "x" "x"
+	/// @DnDArgument : "y" "y"
+	/// @DnDArgument : "type" "1"
+	/// @DnDArgument : "where" "1"
+	/// @DnDArgument : "size" "1"
+	/// @DnDArgument : "color" "$FF00CC81"
+	effect_create_above(1, x, y, 1, $FF00CC81 & $ffffff);
 }
 
 /// @DnDAction : YoYo Games.Common.If_Expression
@@ -38,6 +50,18 @@ if(enemyColor == "yellow")
 	/// @DnDArgument : "var_1" "obj_cannon.energy"
 	obj_control.gameScore += 2 * obj_control.scoreMultiplier;
 	obj_cannon.energy += 2 * obj_control.scoreMultiplier;
+
+	/// @DnDAction : YoYo Games.Particles.Effect
+	/// @DnDVersion : 1
+	/// @DnDHash : 0C1892B8
+	/// @DnDParent : 5A093F2A
+	/// @DnDArgument : "x" "x"
+	/// @DnDArgument : "y" "y"
+	/// @DnDArgument : "type" "1"
+	/// @DnDArgument : "where" "1"
+	/// @DnDArgument : "size" "1"
+	/// @DnDArgument : "color" "$FF07E6FF"
+	effect_create_above(1, x, y, 1, $FF07E6FF & $ffffff);
 }
 
 /// @DnDAction : YoYo Games.Common.If_Expression
@@ -59,4 +83,16 @@ if(enemyColor == "red")
 	/// @DnDArgument : "var_1" "obj_cannon.energy"
 	obj_control.gameScore += 3 * obj_control.scoreMultiplier;
 	obj_cannon.energy += 3 * obj_control.scoreMultiplier;
+
+	/// @DnDAction : YoYo Games.Particles.Effect
+	/// @DnDVersion : 1
+	/// @DnDHash : 222E5B8D
+	/// @DnDParent : 63DE99E0
+	/// @DnDArgument : "x" "x"
+	/// @DnDArgument : "y" "y"
+	/// @DnDArgument : "type" "1"
+	/// @DnDArgument : "where" "1"
+	/// @DnDArgument : "size" "1"
+	/// @DnDArgument : "color" "$FF0022CC"
+	effect_create_above(1, x, y, 1, $FF0022CC & $ffffff);
 }

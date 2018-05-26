@@ -8,6 +8,6 @@ draw_self();
 /// @DnDHash : 3AFD5674
 /// @DnDArgument : "x" "x"
 /// @DnDArgument : "y" "y"
-/// @DnDArgument : "caption" ""-""
+/// @DnDArgument : "caption" ""cool -""
 /// @DnDArgument : "var" "coolDown"
-draw_text(x, y, string("-") + string(coolDown));
+draw_text(x, y, string("cool -") + string(coolDown));
