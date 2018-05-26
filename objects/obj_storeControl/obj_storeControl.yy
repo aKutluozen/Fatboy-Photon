@@ -54,7 +54,7 @@
             "resourceFilter": 1023,
             "value": "1000",
             "varName": "money",
-            "varType": 1
+            "varType": 0
         },
         {
             "id": "3e0c4e43-ed06-445c-b816-4e9d8d815296",

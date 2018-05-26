@@ -110,7 +110,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "10000",
+            "value": "500",
             "varName": "energy",
             "varType": 1
         },

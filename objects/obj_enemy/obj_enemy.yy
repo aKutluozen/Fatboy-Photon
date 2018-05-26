@@ -25,13 +25,23 @@
             "m_owner": "fc04d33c-8fcd-4e40-9231-11ecfec26f22"
         },
         {
-            "id": "e1437c76-e59f-41da-9444-15308c612117",
+            "id": "d9610935-19f9-4871-9c1f-15fb317188c9",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 11,
+            "eventtype": 7,
+            "m_owner": "fc04d33c-8fcd-4e40-9231-11ecfec26f22"
+        },
+        {
+            "id": "9a5dd71c-73c6-4641-a550-03d7f0aa670a",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": true,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 0,
+            "eventtype": 1,
             "m_owner": "fc04d33c-8fcd-4e40-9231-11ecfec26f22"
         }
     ],
@@ -90,7 +100,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0",
+            "value": "y",
             "varName": "yBegin",
             "varType": 1
         }

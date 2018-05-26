@@ -1,7 +1,7 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 4CD527EF
-/// @DnDArgument : "code" "$(13_10)var arr;$(13_10)$(13_10)for (var vertical = 0; vertical < 8; vertical += 2) {$(13_10)	for (var horizontal = 0; horizontal < 8; horizontal++) {$(13_10)		arr[horizontal] = irandom_range(0, 1);$(13_10)	}$(13_10)	$(13_10)	var ypos = 20 + (vertical * 20);$(13_10)	$(13_10)	for (var i = 0; i < 8; i++) {$(13_10)		if (arr[i] == 1) {$(13_10)			var xpos = 10 + (i * 20);$(13_10)			switch(level) {$(13_10)				case 1: $(13_10)					// create just green$(13_10)					instance_create_layer(xpos, ypos, "Layer_Instances", obj_enemyGreen);$(13_10)					break;$(13_10)				case 2: $(13_10)					// create green and yellow$(13_10)					if (irandom_range(0, 1) == 1) {$(13_10)						instance_create_layer(xpos, ypos, "Layer_Instances", obj_enemyGreen);$(13_10)					} else {$(13_10)						instance_create_layer(xpos, ypos, "Layer_Instances", obj_enemyYellow);$(13_10)					}$(13_10)					break;$(13_10)				case 3: $(13_10)					// create just yellow$(13_10)					instance_create_layer(xpos, ypos, "Layer_Instances", obj_enemyYellow);$(13_10)					break;$(13_10)				case 4: $(13_10)					// create just yellow and red$(13_10)					if (irandom_range(0, 1) == 1) {$(13_10)						instance_create_layer(xpos, ypos, "Layer_Instances", obj_enemyYellow);$(13_10)					} else {$(13_10)						instance_create_layer(xpos, ypos, "Layer_Instances", obj_enemyRed);$(13_10)					}$(13_10)					break;$(13_10)				case 5: $(13_10)					// create just red$(13_10)					instance_create_layer(xpos, ypos, "Layer_Instances", obj_enemyRed);$(13_10)					break;$(13_10)				case 6:$(13_10)					// create them all!$(13_10)					var rand = irandom_range(0, 2);$(13_10)				$(13_10)					if (rand == 0) {$(13_10)						instance_create_layer(xpos, ypos, "Layer_Instances", obj_enemyGreen);$(13_10)					} else if (rand == 1) {$(13_10)						instance_create_layer(xpos, ypos, "Layer_Instances", obj_enemyYellow);$(13_10)					} else {$(13_10)						instance_create_layer(xpos, ypos, "Layer_Instances", obj_enemyRed);$(13_10)					}$(13_10)					break;$(13_10)			}$(13_10)		}$(13_10)	}$(13_10)}$(13_10)"
+/// @DnDArgument : "code" "$(13_10)var arr;$(13_10)$(13_10)for (var vertical = 0; vertical < 8; vertical += 2) {$(13_10)	for (var horizontal = 0; horizontal < 8; horizontal++) {$(13_10)		arr[horizontal] = irandom_range(0, 1);$(13_10)	}$(13_10)	$(13_10)	var ypos = 20 + (vertical * 20);$(13_10)	$(13_10)	for (var i = 0; i < 8; i++) {$(13_10)		if (arr[i] == 1) {$(13_10)			var xpos = 10 + (i * 20);$(13_10)			switch(level) {$(13_10)				case 1: $(13_10)					// create just green$(13_10)					instance_create_layer(xpos, ypos, "Layer_Instances", obj_enemyGreen);$(13_10)					break;$(13_10)				case 2: $(13_10)					// create green and yellow$(13_10)					if (irandom_range(0, 1) == 1) {$(13_10)						instance_create_layer(xpos, ypos, "Layer_Instances", obj_enemyGreen);$(13_10)					} else {$(13_10)						instance_create_layer(xpos, ypos, "Layer_Instances", obj_enemyYellow);$(13_10)					}$(13_10)					break;$(13_10)				case 3: $(13_10)					// create just yellow$(13_10)					instance_create_layer(xpos, ypos, "Layer_Instances", obj_enemyYellow);$(13_10)					break;$(13_10)				case 4: $(13_10)					// create just yellow and red$(13_10)					if (irandom_range(0, 1) == 1) {$(13_10)						instance_create_layer(xpos, ypos, "Layer_Instances", obj_enemyYellow);$(13_10)					} else {$(13_10)						instance_create_layer(xpos, ypos, "Layer_Instances", obj_enemyRed);$(13_10)					}$(13_10)					break;$(13_10)				case 5: $(13_10)					// create just red$(13_10)					instance_create_layer(xpos, ypos, "Layer_Instances", obj_enemyRed);$(13_10)					break;$(13_10)				case 6:$(13_10)					// create them all!$(13_10)					var rand = irandom_range(0, 2);$(13_10)				$(13_10)					if (rand == 0) {$(13_10)						instance_create_layer(xpos, ypos, "Layer_Instances", obj_enemyGreen);$(13_10)					} else if (rand == 1) {$(13_10)						instance_create_layer(xpos, ypos, "Layer_Instances", obj_enemyYellow);$(13_10)					} else {$(13_10)						instance_create_layer(xpos, ypos, "Layer_Instances", obj_enemyRed);$(13_10)					}$(13_10)					break;$(13_10)					$(13_10)				default:$(13_10)					// create them all!$(13_10)					var rand = irandom_range(0, 2);$(13_10)				$(13_10)					if (rand == 0) {$(13_10)						instance_create_layer(xpos, ypos, "Layer_Instances", obj_enemyGreen);$(13_10)					} else if (rand == 1) {$(13_10)						instance_create_layer(xpos, ypos, "Layer_Instances", obj_enemyYellow);$(13_10)					} else {$(13_10)						instance_create_layer(xpos, ypos, "Layer_Instances", obj_enemyRed);$(13_10)					}$(13_10)					break;$(13_10)			}$(13_10)		}$(13_10)	}$(13_10)}$(13_10)"
 
 var arr;
 
@@ -45,6 +45,19 @@ for (var vertical = 0; vertical < 8; vertical += 2) {
 					instance_create_layer(xpos, ypos, "Layer_Instances", obj_enemyRed);
 					break;
 				case 6:
+					// create them all!
+					var rand = irandom_range(0, 2);
+				
+					if (rand == 0) {
+						instance_create_layer(xpos, ypos, "Layer_Instances", obj_enemyGreen);
+					} else if (rand == 1) {
+						instance_create_layer(xpos, ypos, "Layer_Instances", obj_enemyYellow);
+					} else {
+						instance_create_layer(xpos, ypos, "Layer_Instances", obj_enemyRed);
+					}
+					break;
+					
+				default:
 					// create them all!
 					var rand = irandom_range(0, 2);
 				

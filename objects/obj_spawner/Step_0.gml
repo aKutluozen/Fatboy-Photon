@@ -16,20 +16,18 @@ if(obj_control.isEnemyFrozen == false)
 		/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 54846326
+		/// @DnDDisabled : 1
 		/// @DnDParent : 52861358
 		/// @DnDArgument : "var" "level"
 		/// @DnDArgument : "op" "2"
 		/// @DnDArgument : "value" "5"
-		if(level > 5)
-		{
-			/// @DnDAction : YoYo Games.Common.Variable
-			/// @DnDVersion : 1
-			/// @DnDHash : 1B09CA86
-			/// @DnDParent : 54846326
-			/// @DnDArgument : "expr" "6"
-			/// @DnDArgument : "var" "level"
-			level = 6;
-		}
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 1B09CA86
+		/// @DnDDisabled : 1
+		/// @DnDParent : 54846326
+		/// @DnDArgument : "expr" "6"
+		/// @DnDArgument : "var" "level"
 	
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
@@ -50,8 +48,8 @@ if(obj_control.isEnemyFrozen == false)
 	/// @DnDParent : 05D7941C
 	/// @DnDArgument : "var" "spawnInterval"
 	/// @DnDArgument : "op" "4"
-	/// @DnDArgument : "value" "3"
-	if(spawnInterval >= 3)
+	/// @DnDArgument : "value" "5"
+	if(spawnInterval >= 5)
 	{
 		/// @DnDAction : YoYo Games.Instances.Call_User_Event
 		/// @DnDVersion : 1

@@ -17,8 +17,8 @@ if(coolDown >= 100)
 	/// @DnDHash : 630A4F98
 	/// @DnDParent : 461C5F4B
 	/// @DnDArgument : "var" "obj_control.gameStatus"
-	/// @DnDArgument : "value" ""enemy_moving""
-	if(obj_control.gameStatus == "enemy_moving")
+	/// @DnDArgument : "value" ""enemy_moving_endThis""
+	if(obj_control.gameStatus == "enemy_moving_endThis")
 	{
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
@@ -26,13 +26,13 @@ if(coolDown >= 100)
 		/// @DnDInput : 3
 		/// @DnDParent : 630A4F98
 		/// @DnDArgument : "expr" "1"
-		/// @DnDArgument : "expr_1" ""enemy_moving""
+		/// @DnDArgument : "expr_1" ""enemy_moving_endThis""
 		/// @DnDArgument : "expr_2" "100"
 		/// @DnDArgument : "var" "burning"
 		/// @DnDArgument : "var_1" "obj_control.gameStatus"
 		/// @DnDArgument : "var_2" "coolDown"
 		burning = 1;
-		obj_control.gameStatus = "enemy_moving";
+		obj_control.gameStatus = "enemy_moving_endThis";
 		coolDown = 100;
 	}
 }
@@ -98,9 +98,9 @@ if(shootingRapid == 1)
 			/// @DnDHash : 51A4C10A
 			/// @DnDApplyTo : fc04d33c-8fcd-4e40-9231-11ecfec26f22
 			/// @DnDParent : 1DC7E666
-			/// @DnDArgument : "code" "event_perform(ev_create, 0);"
+			/// @DnDArgument : "code" "event_perform(event_user(1), 0);"
 			with(obj_enemy) {
-			event_perform(ev_create, 0);
+			event_perform(event_user(1), 0);
 			}
 		
 			/// @DnDAction : YoYo Games.Common.Variable

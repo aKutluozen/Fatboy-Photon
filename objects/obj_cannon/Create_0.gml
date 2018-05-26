@@ -9,3 +9,9 @@ direction = -90;
 /// @DnDHash : 5E16B00B
 /// @DnDArgument : "angle" "direction"
 image_angle = direction;
+
+/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
+/// @DnDVersion : 1
+/// @DnDHash : 09580C33
+/// @DnDArgument : "msg" ""Cannon is created""
+show_debug_message(string("Cannon is created"));

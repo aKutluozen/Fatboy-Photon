@@ -5,19 +5,19 @@
 /// @DnDArgument : "value" ""enemy_moving""
 if(gameStatus == "enemy_moving")
 {
-	/// @DnDAction : YoYo Games.Instances.Set_Alarm
+	/// @DnDAction : YoYo Games.Instances.Call_User_Event
 	/// @DnDVersion : 1
-	/// @DnDHash : 7A6637CD
+	/// @DnDHash : 793BB7CF
 	/// @DnDParent : 022A040D
-	alarm_set(0, 30);
+	event_user(0);
 
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
-	/// @DnDHash : 6993C35F
+	/// @DnDHash : 3D044703
 	/// @DnDParent : 022A040D
-	/// @DnDArgument : "expr" ""enemy_moving""
+	/// @DnDArgument : "expr" ""enemy_moving_endThis""
 	/// @DnDArgument : "var" "gameStatus"
-	gameStatus = "enemy_moving";
+	gameStatus = "enemy_moving_endThis";
 }
 
 /// @DnDAction : YoYo Games.Common.If_Expression

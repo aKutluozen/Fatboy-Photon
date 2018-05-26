@@ -241,7 +241,7 @@ if ((l349D06A7_0 > 0))
 		/// @DnDHash : 2D34FB24
 		/// @DnDInput : 5
 		/// @DnDParent : 0EBAA6A1
-		/// @DnDArgument : "expr" "+ ceil(enemy.enemyLife * 0.75)"
+		/// @DnDArgument : "expr" "1"
 		/// @DnDArgument : "expr_relative" "1"
 		/// @DnDArgument : "expr_2" "obj_control.scoreMultiplier"
 		/// @DnDArgument : "expr_relative_2" "1"
@@ -254,7 +254,7 @@ if ((l349D06A7_0 > 0))
 		/// @DnDArgument : "var_2" "obj_control.gameScore"
 		/// @DnDArgument : "var_3" "enemy.enemyLife"
 		/// @DnDArgument : "var_4" "successfulHits"
-		obj_cannon.energy += + ceil(enemy.enemyLife * 0.75);
+		obj_cannon.energy += 1;
 		hitNumber = 0;
 		obj_control.gameScore += obj_control.scoreMultiplier;
 		enemy.enemyLife += - 1;
@@ -294,9 +294,9 @@ if ((l349D06A7_0 > 0))
 /// @DnDVersion : 1
 /// @DnDHash : 3BD6EF89
 /// @DnDArgument : "var" "hitNumber"
-/// @DnDArgument : "op" "2"
-/// @DnDArgument : "value" "8"
-if(hitNumber > 8)
+/// @DnDArgument : "op" "4"
+/// @DnDArgument : "value" "15"
+if(hitNumber >= 15)
 {
 	/// @DnDAction : YoYo Games.Instances.Create_Instance
 	/// @DnDVersion : 1

@@ -57,9 +57,9 @@ if(obj_control.isEnemyFrozen == false)
 	/// @DnDHash : 42EACED8
 	/// @DnDApplyTo : fc04d33c-8fcd-4e40-9231-11ecfec26f22
 	/// @DnDParent : 18263E8D
-	/// @DnDArgument : "code" "event_perform(ev_create, 0);"
+	/// @DnDArgument : "code" "event_perform(event_user(1), 1);"
 	with(obj_enemy) {
-	event_perform(ev_create, 0);
+	event_perform(event_user(1), 1);
 	}
 }
 
